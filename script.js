@@ -68,7 +68,9 @@ function flushOperation(intBuffer){
         runningTotal *= intBuffer;
     } else if (previousOperator === '÷') {
         runningTotal /= intBuffer;
+    }
 }
+    
 
 function handleNumber(numberString){
     if(buffer === '0') {
